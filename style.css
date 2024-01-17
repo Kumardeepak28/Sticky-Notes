@@ -14,6 +14,25 @@ body {
 .left-container{
     width: 50%;
 }
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 8px solid #800000;
+}
+.right-container h1 {
+     margin-left: 8rem;
+}
+.right-container-notes {
+    display: flex;
+    
+    justify-content: flex-start;
+    gap: 20px;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+}
 .color_and_text {
     display: flex;
     gap: 30px;
@@ -43,6 +62,21 @@ body {
 .output {
     display: flex;
     justify-content: space-between;
-    width: auto;
-    height: auto;
+    height: 10rem;
+    width: 10rem;
+    padding: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-left: 20px;
+}
+.btn2 {
+    height: 1rem;
+    width: 1rem;
+    background-color: black;
+    color: white;
+    top: 10px;
+    left: 190px;
+
+
+    
 }

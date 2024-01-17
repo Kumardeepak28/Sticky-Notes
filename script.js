@@ -47,7 +47,7 @@ function makeStickyNote(text,color) {
     
     let div = document.createElement("div");
     div.classList.add("output")
-    div.innerHTML = `<p>${text}</p><button class="btn2">*</button>`;
+    div.innerHTML = `<p>${text}</p><button class="btn2">X</button>`;
     div.style.backgroundColor = color;
     rightContainer.appendChild(div);
 }
