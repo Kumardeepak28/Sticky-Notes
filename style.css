@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+body {
+    background-color: pink;
+}
+.container {
+    display: flex;
+    gap: 3rem;
+    background-color: pink;
+}
+.left-container{
+    width: 50%;
+}
+.color_and_text {
+    display: flex;
+    gap: 30px;
+    padding: 4rem;
+}
+.color{
+   margin-top: 4rem;
+}
+.add-note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#textarea {
+    border: 5px solid #800000;
+    background-color: #a6a6b4;
+}
+.add-note button {
+    background-color: #eff8f9;
+    border-radius: 100px;
+    border: 6px solid #800000;
+    width: 6rem;
+    height: 2.5rem;
+    color: liceblue;
+    font-weight: bold;
+}
+.output {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+}
